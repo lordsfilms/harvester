@@ -109,7 +109,6 @@ proxy-groups:
       - etoneya
 
 rules:
-  #- MATCH,PROXY #whitelist
   - RULE-SET,private-ips,DIRECT,no-resolve
   - RULE-SET,private-domains,DIRECT
   - IP-CIDR,::/0,REJECT-DROP,no-resolve
