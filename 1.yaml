@@ -64,15 +64,6 @@ proxy-providers:
       enable: true
       interval: 600
       url: "https://connectivitycheck.gstatic.com/generate_204"
-  etoneya:
-    type: http
-    url: "https://etoneya.su/whitelist"
-    interval: 3600
-    path: ./providers/etoneya.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
   my_wl:
     type: http
     url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/speed_tested.txt"
@@ -106,7 +97,6 @@ proxy-groups:
     use:
       - ig1
       - ig2
-      - etoneya
 
 rules:
   - RULE-SET,private-ips,DIRECT,no-resolve
