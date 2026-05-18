@@ -4,16 +4,23 @@ authentication:
 allow-lan: false
 bind-address: "*"
 mode: rule
-log-level: silent
+log-level: info
 ipv6: false
 find-process-mode: always
 unified-delay: true
 tcp-concurrent: true
+geodata-mode: false
+geodata-loader: standard
+geo-auto-update: true
+geo-update-interval: 24
+geox-url:
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
 
 dns:
   enable: true
   cache-algorithm: arc
-  prefer-h3: false
+  prefer-h3: true
   use-hosts: false
   use-system-hosts: false
   respect-rules: false
@@ -27,11 +34,15 @@ dns:
   fake-ip-filter-mode: 'blacklist'
   fake-ip-filter:
     - '*.lan'
+    - '*.local'
+    - 'localhost'
   nameserver-policy:
     'geosite:google,openai,spotify,twitch': 'https://xbox-dns.ru/dns-query'  
   nameserver:
     - 'https://8.8.8.8/dns-query'
     - 'https://1.1.1.1/dns-query'
+    - 'https://9.9.9.9/dns-query'
+    - 'https://doh.opendns.com/dns-query'
 
 proxy-providers:
   ig1:
@@ -96,19 +107,19 @@ rules:
   - RULE-SET,category-ru,DIRECT
   - RULE-SET,ru-whitelist,DIRECT,no-resolve
   - RULE-SET,ddos-guard,DIRECT,no-resolve
+  - RULE-SET,pinterest,DIRECT
   - GEOIP,ru,DIRECT,no-resolve
   - GEOSITE,youtube,PROXY
   - GEOSITE,google,DIRECT
   - GEOSITE,openai,DIRECT
   - GEOSITE,spotify,DIRECT
   - GEOSITE,twitch,DIRECT
-  - RULE-SET,pinterest,DIRECT
   - GEOIP,youtube,PROXY,no-resolve
   - GEOIP,google,DIRECT,no-resolve
   - MATCH,PROXY
 
 profile:
-  store-selected: false
+  store-selected: true
   store-fake-ip: true
 
 rule-providers:
