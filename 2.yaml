@@ -44,8 +44,6 @@ dns:
     'geosite:google,openai,spotify,twitch,anthropic':
         - 'https://xbox-dns.ru/dns-query'
         - 'https://dns.geohide.ru:8443'
-    'geosite:supercell':
-        - 'https://dns.geohide.ru:8443'
   nameserver:
     - 'https://8.8.8.8/dns-query'
     - 'https://1.1.1.1/dns-query'
@@ -4440,7 +4438,6 @@ rules:
   - GEOSITE,openai,DIRECT
   - GEOSITE,anthropic,DIRECT
   - GEOSITE,spotify,DIRECT
-  - GEOSITE,supercell,DIRECT
   - GEOSITE,twitch,DIRECT
   - MATCH,PROXY
 
