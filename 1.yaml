@@ -42,7 +42,9 @@ dns:
     - '*.local'
     - 'localhost'
   nameserver-policy:
-    'geosite:google,openai,spotify,twitch,anthropic': 'https://xbox-dns.ru/dns-query'  
+    'geosite:google,openai,spotify,twitch,anthropic': 
+        - 'https://xbox-dns.ru/dns-query'
+        - 'https://dns.comss.one/dns-query'
   nameserver:
     - 'https://8.8.8.8/dns-query'
     - 'https://1.1.1.1/dns-query'
