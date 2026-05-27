@@ -41,7 +41,7 @@ dns:
     - '*.local'
     - 'localhost'
   nameserver-policy:
-    'geosite:google,openai,spotify,twitch,anthropic':
+    'geosite:google-deepmind,openai,spotify,twitch,anthropic':
         - 'https://xbox-dns.ru/dns-query'
         - 'https://dns.geohide.ru:8443'
   nameserver:
@@ -134,95 +134,35 @@ proxy-groups:
       - zieng2
 
 rules:
-  - RULE-SET,private-ips,DIRECT,no-resolve
-  - RULE-SET,private-domains,DIRECT
+  - GEOIP,private-ips,DIRECT,no-resolve
+  - GEOSITE,private,DIRECT
   - IP-CIDR,::/0,REJECT-DROP,no-resolve
-  - RULE-SET,category-ads,REJECT-DROP
+  - GEOSITE,category-ads,REJECT
+  - RULE-SET,ru-blocked,PROXY
+  - GEOSITE,category-ru,DIRECT
   - RULE-SET,whitelist,DIRECT
-  - RULE-SET,direct-ips,DIRECT
-  - RULE-SET,category-ru,DIRECT
-  - RULE-SET,ru-whitelist,DIRECT,no-resolve
-  - RULE-SET,ddos-guard,DIRECT,no-resolve
-  - RULE-SET,pinterest,DIRECT
   - GEOIP,ru,DIRECT,no-resolve
   - GEOSITE,youtube,PROXY
   - GEOSITE,google,DIRECT
   - GEOSITE,openai,DIRECT
   - GEOSITE,anthropic,DIRECT
   - GEOSITE,spotify,DIRECT
+  - GEOSITE,pinterest,DIRECT
   - GEOSITE,twitch,DIRECT
   - MATCH,PROXY
 
 rule-providers:
-  ru-whitelist:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    url: http://cdn.jsdelivr.net/gh/runetfreedom/russia-blocked-geoip@release/mrs/ru-whitelist.mrs
-    path: ./ruleset/ru-whitelist.mrs
-    proxy: PROXY
-    interval: 86400
-  ddos-guard:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/runetfreedom/russia-blocked-geoip@release/mrs/ddos-guard.mrs
-    path: ./ruleset/ddos-guard.mrs
-    proxy: PROXY
-    interval: 86400
-  private-domains:
-    type: http
-    behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/private.mrs
-    path: ./ruleset/geosite-private.mrs
-    proxy: PROXY
-    interval: 2592000
-  category-ru:
-    type: http
-    behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/category-ru.mrs
-    path: ./ruleset/category-ru.mrs
-    proxy: PROXY
-    interval: 86400
   whitelist:
     type: http
     behavior: domain
     format: mrs
     url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/whitelist.mrs
     path: ./ruleset/whitelist.mrs
-    proxy: PROXY
     interval: 86400
-  pinterest:
+  ru-blocked:
     type: http
     behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/pinterest.mrs
-    path: ./ruleset/pinterest.mrs
-    proxy: PROXY
-    interval: 86400
-  private-ips:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/private.mrs
-    path: ./ruleset/geoip-private.mrs
-    proxy: PROXY
-    interval: 2592000
-  direct-ips:
-    type: http
-    behavior: ipcidr
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geoip/release/mihomo/direct.mrs
-    path: ./ruleset/direct-ips.mrs
-    proxy: PROXY
-    interval: 86400
-  category-ads:
-    type: http
-    behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/category-ads.mrs
-    path: ./ruleset/category-ads.mrs
-    proxy: PROXY
+    format: text
+    url: https://cdn.jsdelivr.net/gh/runetfreedom/russia-blocked-geosite@release/ru-blocked.txt
+    path: ./ruleset/ru-blocked.txt
     interval: 86400
