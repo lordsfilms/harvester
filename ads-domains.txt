@@ -84,3 +84,8 @@ thetradedesk.com
 singular.net
 mads-eu.amazon.com
 cdn.segment.com
+logbak.hicloud.com
+logservice.hicloud.com
+grs.hicloud.com
+firebase-settings.crashlytics.com
+cdn.doubleverify.com
