@@ -171,32 +171,8 @@ rule-providers:
     path: ./ruleset/whitelist.mrs
     interval: 86400
   supercell:
-    type: inline
+    type: http
     behavior: domain
-    format: yaml
-    payload:
-      - '+.boombeach.com'
-      - '+.brawlstars.com'
-      - '+.brawlstarsgame.com'
-      - '+.clash.com'
-      - '+.clashmini.com'
-      - '+.clashofclans.com'
-      - '+.clashroyale.com'
-      - '+.clashroyaleapp.com'
-      - '+.gamesfirsthelsinki.com'
-      - '+.hayday.com'
-      - '+.haydaygame.com'
-      - '+.mo.co'
-      - '+.seeurlpcl.com'
-      - '+.squadbusters.com'
-      - '+.supercell.com'
-      - '+.supercell.net'
-      - '+.supercellcreators.com'
-      - '+.supercellgames.com'
-      - '+.supercellid.com'
-      - '+.supercellstore.com'
-      - '+.supr.cl'
-      - '+.helpshift.com'
-      - 'sentry.io'
-      - '+.sentry.io'
-      - 'mtech.supercell.com'
+    url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/supercell.list"
+    path: ./rules/supercell.list
+    interval: 86400
