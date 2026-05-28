@@ -45,9 +45,9 @@ dns:
   nameserver-policy:
     'geosite:google-deepmind,openai,spotify,twitch,anthropic':
       - 'https://xbox-dns.ru/dns-query'
-      - 'https://dns.geohide.ru:8443'
+      - 'https://dns.geohide.ru:444/dns-query'
     'rule-set:supercell':
-      - 'https://supercell.xbox-dns.ru/dns-query'
+      - 'https://dns.geohide.ru:444/dns-query'
   nameserver:
     - 'https://dns.geohide.ru:444/dns-query'
     - 'https://xbox-dns.ru/dns-query'
