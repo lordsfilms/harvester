@@ -1,8 +1,6 @@
 mixed-port: 33333
-authentication:
-  - "local:Lnn8pw8AMirTmU7AXO2m8f29QQPa6XHUeRXuKO6Uxy69zZPDy7ZsfQ5Pli1wi4Bo"
-allow-lan: false
 bind-address: "*"
+allow-lan: false
 mode: rule
 log-level: info
 ipv6: false
@@ -65,6 +63,15 @@ sniffer:
       ports: [443, 8443]
 
 proxy-providers:
+  my_wl:
+    type: http
+    url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/speed_tested.txt"
+    interval: 3600
+    path: ./providers/my_wl.yaml
+    health-check:
+      enable: true
+      interval: 600
+      url: "https://connectivitycheck.gstatic.com/generate_204"
   ig1:
     type: http
     url: "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Vless-Reality-White-Lists-Rus-Mobile.txt"
@@ -88,15 +95,6 @@ proxy-providers:
     url: "https://cdn.jsdelivr.net/gh/zieng2/wl@main/vless_universal.txt"
     interval: 3600
     path: ./providers/zieng2.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
-  my_wl:
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/speed_tested.txt"
-    interval: 3600
-    path: ./providers/my_wl.yaml
     health-check:
       enable: true
       interval: 600
@@ -158,12 +156,12 @@ rule-providers:
     behavior: ipcidr
     format: mrs
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs"
-    path: ./rules/private.mrs
+    path: ./rules/private-ips.mrs
     interval: 2592000
   whitelist:
     type: http
     behavior: domain
     format: mrs
-    url: https://cdn.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/whitelist.mrs
+    url: https://fastly.jsdelivr.net/gh/hydraponique/roscomvpn-geosite/release/mihomo/whitelist.mrs
     path: ./ruleset/whitelist.mrs
     interval: 86400
