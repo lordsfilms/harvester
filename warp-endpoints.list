@@ -4,7 +4,6 @@ proxies:
     server: 188.114.97.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -19,8 +18,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -37,7 +34,6 @@ proxies:
     server: 188.114.97.148
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -52,8 +48,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -70,7 +64,6 @@ proxies:
     server: 162.159.195.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -85,8 +78,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -103,7 +94,6 @@ proxies:
     server: engage.cloudflareclient.com
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -118,8 +108,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -136,7 +124,6 @@ proxies:
     server: engage.cloudflareclient.com
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -151,8 +138,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -169,7 +154,6 @@ proxies:
     server: engage.cloudflareclient.com
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -184,8 +168,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -202,7 +184,6 @@ proxies:
     server: 188.114.99.224
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -217,8 +198,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -235,7 +214,6 @@ proxies:
     server: 8.34.146.113
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -250,8 +228,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -268,7 +244,6 @@ proxies:
     server: 162.159.192.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -283,8 +258,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -301,7 +274,6 @@ proxies:
     server: 162.159.192.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -316,8 +288,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -334,7 +304,6 @@ proxies:
     server: 162.159.192.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -349,8 +318,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -367,7 +334,6 @@ proxies:
     server: 162.159.192.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -382,8 +348,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -400,7 +364,6 @@ proxies:
     server: 162.159.192.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -415,8 +378,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -433,7 +394,6 @@ proxies:
     server: 162.159.192.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -448,8 +408,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -466,7 +424,6 @@ proxies:
     server: 162.159.192.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -481,8 +438,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -499,7 +454,6 @@ proxies:
     server: 162.159.192.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -514,8 +468,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -532,7 +484,6 @@ proxies:
     server: 162.159.192.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -547,8 +498,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -565,7 +514,6 @@ proxies:
     server: 162.159.192.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -580,8 +528,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -598,7 +544,6 @@ proxies:
     server: 162.159.192.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -613,8 +558,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -631,7 +574,6 @@ proxies:
     server: 162.159.192.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -646,8 +588,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -664,7 +604,6 @@ proxies:
     server: 162.159.192.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -679,8 +618,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -697,7 +634,6 @@ proxies:
     server: 162.159.192.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -712,8 +648,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -730,7 +664,6 @@ proxies:
     server: 162.159.192.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -745,8 +678,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -763,7 +694,6 @@ proxies:
     server: 162.159.192.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -778,8 +708,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -796,7 +724,6 @@ proxies:
     server: 162.159.192.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -811,8 +738,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -829,7 +754,6 @@ proxies:
     server: 162.159.192.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -844,8 +768,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -862,7 +784,6 @@ proxies:
     server: 162.159.192.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -877,8 +798,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -895,7 +814,6 @@ proxies:
     server: 162.159.192.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -910,8 +828,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -928,7 +844,6 @@ proxies:
     server: 162.159.192.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -943,8 +858,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -961,7 +874,6 @@ proxies:
     server: 162.159.192.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -976,8 +888,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -994,7 +904,6 @@ proxies:
     server: 162.159.192.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1009,8 +918,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1027,7 +934,6 @@ proxies:
     server: 162.159.192.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1042,8 +948,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1060,7 +964,6 @@ proxies:
     server: 162.159.192.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1075,8 +978,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1093,7 +994,6 @@ proxies:
     server: 162.159.192.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1108,8 +1008,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1126,7 +1024,6 @@ proxies:
     server: 162.159.192.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1141,8 +1038,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1159,7 +1054,6 @@ proxies:
     server: 162.159.192.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1174,8 +1068,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1192,7 +1084,6 @@ proxies:
     server: 162.159.192.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1207,8 +1098,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1225,7 +1114,6 @@ proxies:
     server: 162.159.192.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1240,8 +1128,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1258,7 +1144,6 @@ proxies:
     server: 162.159.192.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1273,8 +1158,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1291,7 +1174,6 @@ proxies:
     server: 162.159.192.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1306,8 +1188,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1324,7 +1204,6 @@ proxies:
     server: 162.159.192.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1339,8 +1218,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1357,7 +1234,6 @@ proxies:
     server: 162.159.192.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1372,8 +1248,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1390,7 +1264,6 @@ proxies:
     server: 162.159.192.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1405,8 +1278,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1423,7 +1294,6 @@ proxies:
     server: 162.159.192.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1438,8 +1308,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1456,7 +1324,6 @@ proxies:
     server: 162.159.192.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1471,8 +1338,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1489,7 +1354,6 @@ proxies:
     server: 162.159.192.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1504,8 +1368,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1522,7 +1384,6 @@ proxies:
     server: 162.159.192.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1537,8 +1398,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1555,7 +1414,6 @@ proxies:
     server: 162.159.192.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1570,8 +1428,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1588,7 +1444,6 @@ proxies:
     server: 162.159.192.11
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1603,8 +1458,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1621,7 +1474,6 @@ proxies:
     server: 162.159.192.11
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1636,8 +1488,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1654,7 +1504,6 @@ proxies:
     server: 162.159.192.11
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1669,8 +1518,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1687,7 +1534,6 @@ proxies:
     server: 162.159.192.11
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1702,8 +1548,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1720,7 +1564,6 @@ proxies:
     server: 162.159.192.12
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1735,8 +1578,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1753,7 +1594,6 @@ proxies:
     server: 162.159.192.12
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1768,8 +1608,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1786,7 +1624,6 @@ proxies:
     server: 162.159.192.12
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1801,8 +1638,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1819,7 +1654,6 @@ proxies:
     server: 162.159.192.12
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1834,8 +1668,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1852,7 +1684,6 @@ proxies:
     server: 162.159.192.13
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1867,8 +1698,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1885,7 +1714,6 @@ proxies:
     server: 162.159.192.13
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1900,8 +1728,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1918,7 +1744,6 @@ proxies:
     server: 162.159.192.13
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1933,8 +1758,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1951,7 +1774,6 @@ proxies:
     server: 162.159.192.13
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1966,8 +1788,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -1984,7 +1804,6 @@ proxies:
     server: 162.159.192.14
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -1999,8 +1818,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2017,7 +1834,6 @@ proxies:
     server: 162.159.192.14
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2032,8 +1848,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2050,7 +1864,6 @@ proxies:
     server: 162.159.192.14
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2065,8 +1878,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2083,7 +1894,6 @@ proxies:
     server: 162.159.192.14
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2098,8 +1908,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2116,7 +1924,6 @@ proxies:
     server: 162.159.192.15
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2131,8 +1938,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2149,7 +1954,6 @@ proxies:
     server: 162.159.192.15
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2164,8 +1968,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2182,7 +1984,6 @@ proxies:
     server: 162.159.192.15
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2197,8 +1998,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2215,7 +2014,6 @@ proxies:
     server: 162.159.192.15
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2230,8 +2028,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2248,7 +2044,6 @@ proxies:
     server: 162.159.192.16
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2263,8 +2058,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2281,7 +2074,6 @@ proxies:
     server: 162.159.192.16
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2296,8 +2088,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2314,7 +2104,6 @@ proxies:
     server: 162.159.192.16
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2329,8 +2118,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2347,7 +2134,6 @@ proxies:
     server: 162.159.192.16
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2362,8 +2148,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2380,7 +2164,6 @@ proxies:
     server: 162.159.192.17
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2395,8 +2178,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2413,7 +2194,6 @@ proxies:
     server: 162.159.192.17
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2428,8 +2208,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2446,7 +2224,6 @@ proxies:
     server: 162.159.192.17
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2461,8 +2238,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2479,7 +2254,6 @@ proxies:
     server: 162.159.192.17
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2494,8 +2268,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2512,7 +2284,6 @@ proxies:
     server: 162.159.192.18
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2527,8 +2298,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2545,7 +2314,6 @@ proxies:
     server: 162.159.192.18
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2560,8 +2328,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2578,7 +2344,6 @@ proxies:
     server: 162.159.192.18
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2593,8 +2358,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2611,7 +2374,6 @@ proxies:
     server: 162.159.192.18
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2626,8 +2388,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2644,7 +2404,6 @@ proxies:
     server: 162.159.192.19
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2659,8 +2418,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2677,7 +2434,6 @@ proxies:
     server: 162.159.192.19
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2692,8 +2448,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2710,7 +2464,6 @@ proxies:
     server: 162.159.192.19
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2725,8 +2478,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2743,7 +2494,6 @@ proxies:
     server: 162.159.192.19
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2758,8 +2508,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2776,7 +2524,6 @@ proxies:
     server: 162.159.192.20
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2791,8 +2538,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2809,7 +2554,6 @@ proxies:
     server: 162.159.192.20
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2824,8 +2568,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2842,7 +2584,6 @@ proxies:
     server: 162.159.192.20
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2857,8 +2598,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2875,7 +2614,6 @@ proxies:
     server: 162.159.192.20
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2890,8 +2628,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2908,7 +2644,6 @@ proxies:
     server: 162.159.195.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2923,8 +2658,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2941,7 +2674,6 @@ proxies:
     server: 162.159.195.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2956,8 +2688,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -2974,7 +2704,6 @@ proxies:
     server: 162.159.195.1
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -2989,8 +2718,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3007,7 +2734,6 @@ proxies:
     server: 162.159.195.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3022,8 +2748,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3040,7 +2764,6 @@ proxies:
     server: 162.159.195.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3055,8 +2778,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3073,7 +2794,6 @@ proxies:
     server: 162.159.195.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3088,8 +2808,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3106,7 +2824,6 @@ proxies:
     server: 162.159.195.2
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3121,8 +2838,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3139,7 +2854,6 @@ proxies:
     server: 162.159.195.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3154,8 +2868,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3172,7 +2884,6 @@ proxies:
     server: 162.159.195.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3187,8 +2898,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3205,7 +2914,6 @@ proxies:
     server: 162.159.195.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3220,8 +2928,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3238,7 +2944,6 @@ proxies:
     server: 162.159.195.3
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3253,8 +2958,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3271,7 +2974,6 @@ proxies:
     server: 162.159.195.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3286,8 +2988,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3304,7 +3004,6 @@ proxies:
     server: 162.159.195.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3319,8 +3018,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3337,7 +3034,6 @@ proxies:
     server: 162.159.195.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3352,8 +3048,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3370,7 +3064,6 @@ proxies:
     server: 162.159.195.4
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3385,8 +3078,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3403,7 +3094,6 @@ proxies:
     server: 162.159.195.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3418,8 +3108,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3436,7 +3124,6 @@ proxies:
     server: 162.159.195.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3451,8 +3138,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3469,7 +3154,6 @@ proxies:
     server: 162.159.195.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3484,8 +3168,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3502,7 +3184,6 @@ proxies:
     server: 162.159.195.5
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3517,8 +3198,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3535,7 +3214,6 @@ proxies:
     server: 162.159.195.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3550,8 +3228,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3568,7 +3244,6 @@ proxies:
     server: 162.159.195.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3583,8 +3258,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3601,7 +3274,6 @@ proxies:
     server: 162.159.195.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3616,8 +3288,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3634,7 +3304,6 @@ proxies:
     server: 162.159.195.6
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3649,8 +3318,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3667,7 +3334,6 @@ proxies:
     server: 162.159.195.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3682,8 +3348,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3700,7 +3364,6 @@ proxies:
     server: 162.159.195.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3715,8 +3378,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3733,7 +3394,6 @@ proxies:
     server: 162.159.195.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3748,8 +3408,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3766,7 +3424,6 @@ proxies:
     server: 162.159.195.7
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3781,8 +3438,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3799,7 +3454,6 @@ proxies:
     server: 162.159.195.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3814,8 +3468,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3832,7 +3484,6 @@ proxies:
     server: 162.159.195.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3847,8 +3498,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3865,7 +3514,6 @@ proxies:
     server: 162.159.195.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3880,8 +3528,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3898,7 +3544,6 @@ proxies:
     server: 162.159.195.8
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3913,8 +3558,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3931,7 +3574,6 @@ proxies:
     server: 162.159.195.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3946,8 +3588,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3964,7 +3604,6 @@ proxies:
     server: 162.159.195.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -3979,8 +3618,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -3997,7 +3634,6 @@ proxies:
     server: 162.159.195.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4012,8 +3648,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -4030,7 +3664,6 @@ proxies:
     server: 162.159.195.9
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4045,8 +3678,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -4063,7 +3694,6 @@ proxies:
     server: 162.159.195.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4078,8 +3708,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -4096,7 +3724,6 @@ proxies:
     server: 162.159.195.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4111,8 +3738,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -4129,7 +3754,6 @@ proxies:
     server: 162.159.195.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4144,8 +3768,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
@@ -4162,7 +3784,6 @@ proxies:
     server: 162.159.195.10
     type: wireguard
     ip: 172.16.0.2
-    ipv6: 2606:4700:110:8840:fd7b:6ed2:8a2c:9086
     private-key: wE89/zc3tAkbqYhxYeUbufyDjai0Krwdlkf2oUKOuUs=
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     allowed-ips:
@@ -4177,8 +3798,6 @@ proxies:
     dns:
     - 1.1.1.1
     - 1.0.0.1
-    - 2606:4700:4700::1111
-    - 2606:4700:4700::1001
     amnezia-wg-option:
       jc: 4
       jmin: 40
