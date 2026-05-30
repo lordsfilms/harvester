@@ -6,12 +6,10 @@ log-level: info
 ipv6: false
 unified-delay: true
 tcp-concurrent: true
-geodata-mode: false
 geodata-loader: standard
 geo-auto-update: true
 geo-update-interval: 24
 geox-url:
-  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
 
 secret: mihomo
@@ -66,7 +64,7 @@ proxy-providers:
   warp_provider:
     type: http
     url: https://fastly.jsdelivr.net/gh/luxxuria/harvester@main/warp-endpoints.list
-    path: ./providers/warp-endpoints.list
+    path: ./providers/warp-endpoints.yaml
     interval: 3600
     health-check:
       enable: true
@@ -76,7 +74,7 @@ proxy-providers:
     type: http
     url: https://fastly.jsdelivr.net/gh/luxxuria/harvester@main/non_ru.txt
     interval: 3600
-    path: ./providers/non_ru.txt
+    path: ./providers/non_ru.yaml
     health-check:
       enable: true
       interval: 600
@@ -112,7 +110,6 @@ rules:
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,category-ru,DIRECT
   - RULE-SET,whitelist,DIRECT
-  - GEOIP,ru,DIRECT,no-resolve
   - GEOSITE,youtube,PROXY
   - GEOSITE,google,DIRECT
   - GEOSITE,openai,DIRECT
@@ -128,7 +125,7 @@ rule-providers:
     behavior: ipcidr
     format: mrs
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs"
-    path: ./rules/private-ips.mrs
+    path: ./ruleset/private-ips.mrs
     interval: 2592000
   whitelist:
     type: http
