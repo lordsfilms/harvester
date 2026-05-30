@@ -6,12 +6,10 @@ log-level: info
 ipv6: false
 unified-delay: true
 tcp-concurrent: true
-geodata-mode: false
 geodata-loader: standard
 geo-auto-update: true
 geo-update-interval: 24
 geox-url:
-  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
   geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
 
 secret: mihomo
@@ -140,7 +138,6 @@ rules:
   - GEOSITE,category-ads-all,REJECT
   - GEOSITE,category-ru,DIRECT
   - RULE-SET,whitelist,DIRECT
-  - GEOIP,ru,DIRECT,no-resolve
   - GEOSITE,youtube,PROXY
   - GEOSITE,google,DIRECT
   - GEOSITE,openai,DIRECT
@@ -156,7 +153,7 @@ rule-providers:
     behavior: ipcidr
     format: mrs
     url: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geoip/private.mrs"
-    path: ./rules/private-ips.mrs
+    path: ./ruleset/private-ips.mrs
     interval: 2592000
   whitelist:
     type: http
