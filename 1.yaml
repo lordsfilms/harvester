@@ -60,76 +60,74 @@ sniffer:
     QUIC:
       ports: [443, 8443]
 
+health_check: &health_check
+  health-check:
+    enable: true
+    url: https://connectivitycheck.gstatic.com/generate_204
+    interval: 60
+    timeout: 3000
+    lazy: true
+
+url_test: &url_test
+  type: url-test
+  url: https://connectivitycheck.gstatic.com/generate_204
+  interval: 60
+  lazy: true
+  timeout: 3000
+  max-failed-times: 2
+  tolerance: 50
+
 proxy-providers:
-  my_wl:
+  speed_tested:
     type: http
     url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/speed_tested.txt"
+    path: ./providers/speed_tested.yaml
     interval: 3600
-    path: ./providers/my_wl.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
+    <<: *health_check
   ig1:
     type: http
     url: "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Vless-Reality-White-Lists-Rus-Mobile.txt"
-    interval: 3600
     path: ./providers/ig1.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
+    interval: 3600
+    <<: *health_check
   ig2:
     type: http
     url: "https://cdn.jsdelivr.net/gh/igareck/vpn-configs-for-russia@main/Vless-Reality-White-Lists-Rus-Mobile-2.txt"
-    interval: 3600
     path: ./providers/ig2.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
-  zieng2:
-    type: http
-    url: "https://cdn.jsdelivr.net/gh/zieng2/wl@main/vless_universal.txt"
     interval: 3600
-    path: ./providers/zieng2.yaml
-    health-check:
-      enable: true
-      interval: 600
-      url: "https://connectivitycheck.gstatic.com/generate_204"
+    <<: *health_check
+  warp_provider:
+    type: http
+    url: https://fastly.jsdelivr.net/gh/luxxuria/harvester@main/warp-endpoints.list
+    path: ./providers/warp-endpoints.yaml
+    interval: 72000
+    <<: *health_check
 
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
-      - my_wl
+      - custom
       - igareck
-      - zieng2
-  - name: my_wl
-    type: url-test
-    url: "https://connectivitycheck.gstatic.com/generate_204"
-    interval: 600
-    tolerance: 50
-    timeout: 3000
+      - warp-auto
+      - warp-select
+  - name: custom
+    <<: *url_test
     use:
-      - my_wl
+      - speed_tested
   - name: igareck
-    type: url-test
-    url: "https://connectivitycheck.gstatic.com/generate_204"
-    interval: 600
-    tolerance: 50
-    timeout: 3000
+    <<: *url_test
     use:
       - ig1
       - ig2
-  - name: zieng2
-    type: url-test
-    url: "https://connectivitycheck.gstatic.com/generate_204"
-    interval: 600
-    tolerance: 50
-    timeout: 3000
+  - name: warp-auto
+    <<: *url_test
     use:
-      - zieng2
+      - warp_provider
+  - name: warp-select
+    type: select
+    use:
+      - warp_provider
 
 rules:
   - RULE-SET,private-ips,DIRECT,no-resolve
