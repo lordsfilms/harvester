@@ -74,7 +74,7 @@ url_test: &url_test
   interval: 60
   lazy: true
   timeout: 3000
-  max-failed-times: 2
+  max-failed-times: 3
   tolerance: 50
 
 proxy-providers:
