@@ -75,6 +75,12 @@ url_test: &url_test
   tolerance: 50
 
 proxy-providers:
+  warp_provider:
+    type: http
+    url: https://fastly.jsdelivr.net/gh/luxxuria/harvester@main/warp-endpoints.list
+    path: ./providers/warp-endpoints.yaml
+    interval: 72000
+    <<: *health_check
   speed_tested:
     type: http
     url: "https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/speed_tested.txt"
@@ -93,12 +99,7 @@ proxy-providers:
     path: ./providers/ig2.yaml
     interval: 3600
     <<: *health_check
-  warp_provider:
-    type: http
-    url: https://fastly.jsdelivr.net/gh/luxxuria/harvester@main/warp-endpoints.list
-    path: ./providers/warp-endpoints.yaml
-    interval: 72000
-    <<: *health_check
+
 
 proxy-groups:
   - name: PROXY
@@ -108,6 +109,14 @@ proxy-groups:
       - warp-select
       - custom
       - igareck
+  - name: warp-auto
+    <<: *url_test
+    use:
+      - warp_provider
+  - name: warp-select
+    type: select
+    use:
+      - warp_provider
   - name: custom
     <<: *url_test
     use:
@@ -117,14 +126,7 @@ proxy-groups:
     use:
       - ig1
       - ig2
-  - name: warp-auto
-    <<: *url_test
-    use:
-      - warp_provider
-  - name: warp-select
-    type: select
-    use:
-      - warp_provider
+
 
 rules:
   - RULE-SET,private-ips,DIRECT,no-resolve
