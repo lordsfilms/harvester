@@ -1,3 +1,13 @@
+## CDN Mirrors
+
+If `github` is unreachable or blocked in your country, you can access any file by replacing the domain in the URL using the templates below:
+
+* **jsDelivr:** `https://cdn.jsdelivr.net/gh/luxxuria/harvester@main/FILENAME.txt`
+* **GitHack:** `https://raw.githack.com/luxxuria/harvester/main/FILENAME.txt`
+
+*Replace `FILENAME.txt` with: `ping_tested.txt`, `speed_tested.txt`, `top_600.txt`, or `non_ru.txt`.*
+
+
 # VLESS Configuration Lists
 
 Данный репозиторий содержит списки верифицированных конфигураций VLESS, прошедших многоэтапную фильтрацию. Обновление данных происходит в автоматическом режиме.
